@@ -1,24 +1,15 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
-
 
  header {
      background-color: #875495;
      color:#f9fafc;
-     height: 150px;
+     height: 200px;
      text-align: center;
-     padding: 30px;
+     padding: 50px;
  }
 
  strong {
      color:#f9fafc;
-     font-size: 40px;
+     font-size: 60px;
      font-family: 'Bad Script', cursive;
  }
 
@@ -26,20 +17,48 @@
     font-family: 'Open Sans', sans-serif;
    }
 
- ul {
+h1 {
+    font-family: 'Bad Script', cursive;
+}
+
+main > img {
+    width: 200px;
+    float: right;
+    margin: 20px;
+    margin-right: 100px;
+    border-radius: 70px;
+   }
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #875495;
   }
-
- li a {
-    display: inline-block;
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #f9fafc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #AA82B5;
   }
 
  main {
+     padding: 20px;
      background-color: #CEB3D5;
-     color:black;
+     color:#474747;
  }
+
+ EADDED
 
 
 .contactme {
@@ -50,7 +69,8 @@
          }
 
  footer {
-     background-color: #f9fafc;
-     color:black;
+    padding: 20px;
+    background-color: #f9fafc;
+    color:#474747;
  }
 
