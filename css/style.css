@@ -19,15 +19,9 @@
 
 h1 {
     font-family: 'Bad Script', cursive;
+    font-size: 45px;
 }
 
-main > img {
-    width: 200px;
-    float: right;
-    margin: 20px;
-    margin-right: 100px;
-    border-radius: 70px;
-   }
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,14 +46,40 @@ ul {
     background-color: #AA82B5;
   }
 
- main {
-     padding: 20px;
+ section {
+     height: 350px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 70px;
      background-color: #CEB3D5;
      color:#474747;
  }
 
- EADDED
+ section > img {
+    width: 300px;
+    float: right;
+    margin: 20px;
+    margin-right: 150px;
+    border-radius: 70px;
+   }
 
+main {
+    padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 70px;
+    background-color: #EADDED;
+    color:#474747;
+   } 
+
+.projects {
+    width: 500px;
+    border: solid 3px #F4FBB2;
+    border-radius: 20px;
+   }
+
+article:first-child {
+    background-color: chartreuse;
+   }
 
 .contactme {
  display:inline-block;
@@ -69,7 +89,9 @@ ul {
          }
 
  footer {
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
     background-color: #f9fafc;
     color:#474747;
  }
