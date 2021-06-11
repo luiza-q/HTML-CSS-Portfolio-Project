@@ -6,3 +6,51 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+ header {
+     background-color: #875495;
+     color:#f9fafc;
+     height: 150px;
+     text-align: center;
+     padding: 30px;
+ }
+
+ strong {
+     color:#f9fafc;
+     font-size: 40px;
+     font-family: 'Bad Script', cursive;
+ }
+
+ body {
+    font-family: 'Open Sans', sans-serif;
+   }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ li a {
+    display: inline-block;
+  }
+
+ main {
+     background-color: #CEB3D5;
+     color:black;
+ }
+
+
+.contactme {
+ display:inline-block;
+ padding: 10px;
+ margin: auto;
+ width: 100%;
+         }
+
+ footer {
+     background-color: #f9fafc;
+     color:black;
+ }
+
