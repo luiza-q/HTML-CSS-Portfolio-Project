@@ -21,9 +21,9 @@
     <nav>
       <ul>
         <li><a href="default.asp">Home</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="mailto:luizaq@gmail.com">Contact</a></li>
-        <li><a href="about.asp">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#aboutme">About me</a></li>
       </ul>
 
     </nav>
@@ -31,27 +31,29 @@
 
     <section>
       <img src="images/eu.jpg">
-      <h1>About me</h1>
+      <h1 id="aboutme">About me</h1>
       <p>Hi! My name is Luiza. I'm learning Web Development with Migracode. These are the projects I developed.</p> 
     </section>
-
+    
     <main>
-      <h1>Projects</h1>
-      <article>
-        <a target="_blank" href="https://luiza-q.github.io/a-loaf-to-do/" alt="Project 1 Website" >
-          <img class="projects" src="images/project1.JPG"></a>
-        <p><b>A loaf to do </b>- my website about making bread. Created using CodePen.</p>
-      </article>
-      <article>
-        <p><b>Project 2</b>- coming soon</p>
-      </article>
-      <article>
-        <p><b>Project 3</b>- coming soon</p>
-      </article>
+      <h1 id="projects">Projects</h1>
+      <section class="list-of-projects">
+        <div>
+          <a target="_blank" href="https://luiza-q.github.io/a-loaf-to-do/" alt="Project 1 Website" >
+            <img class="projects" src="images/project1.JPG"></a>
+          <p><b>A loaf to do </b>- my website about making bread. Created using CodePen.</p>
+        </div>
+        <div>
+          <p><b>Project 2</b>- coming soon</p>
+        </div>
+        <div>
+         <p><b>Project 3</b>- coming soon</p>
+        </div>
+      </section>
     </main>
 
     <footer>
-      <h1>Where to find me</h1>
+      <h1 id="contact">Where to find me</h1>
       <nav class="contactme">
         
         <a href="mailto:luizaq@gmail.com" alt="email" ><img src="images/email.JPG" width="32px"></a>
