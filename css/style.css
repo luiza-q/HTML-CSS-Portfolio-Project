@@ -1,8 +1,112 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+ header {
+     background-color: #875495;
+     color:#f9fafc;
+     height: 200px;
+     text-align: center;
+     padding: 50px;
+ }
+
+ strong {
+     color:#f9fafc;
+     font-size: 60px;
+     font-family: 'Bad Script', cursive;
+ }
+
+ body {
+    font-family: 'Open Sans', sans-serif;
+   }
+
+h1 {
+    font-family: 'Bad Script', cursive;
+    font-size: 45px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #875495;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #f9fafc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #AA82B5;
+  }
+
+ .about-me {
+     height: 350px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 70px;
+     background-color: #CEB3D5;
+     color:#474747;
+ }
+
+.about-me > img {
+    width: 300px;
+    float: right;
+    margin: 20px;
+    margin-right: 150px;
+    border-radius: 70px;
+   }
+
+main {
+    padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 70px;
+    background-color: #EADDED;
+    color:#474747;
+   } 
+
+article {
+  margin: 20px;
+  padding: 10px;
+}
+
+.list-of-projects {
+  display: flex;
+  align-items: center;
+}
+
+.img-projects {
+    width: 500px;
+    border-radius: 20px;
+    }
+
+.list-of-projects > article:first-child {
+  border: solid 5px #F4FBB2;
+  border-radius: 20px;
+  }
+
+.contactme {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  }
+
+ footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    background-color: #f9fafc;
+    color:#474747;
+   
+ }
+  
+ .contact-img {
+   margin-right: 30px;
+ }
+
