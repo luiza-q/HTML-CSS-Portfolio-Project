@@ -46,7 +46,7 @@ ul {
     background-color: #AA82B5;
   }
 
- section {
+ .about-me {
      height: 350px;
      padding-top: 30px;
      padding-bottom: 30px;
@@ -55,7 +55,7 @@ ul {
      color:#474747;
  }
 
- section > img {
+.about-me > img {
     width: 300px;
     float: right;
     margin: 20px;
@@ -63,7 +63,7 @@ ul {
     border-radius: 70px;
    }
 
-main, .list-of-projects {
+main {
     padding-top: 30px;
      padding-bottom: 30px;
      padding-left: 70px;
@@ -71,19 +71,27 @@ main, .list-of-projects {
     color:#474747;
    } 
 
-.projects {
+article {
+  margin: 20px;
+  padding: 10px;
+}
+
+.list-of-projects {
+  display: flex;
+  align-items: center;
+}
+
+.img-projects {
     width: 500px;
-    border: solid 3px #F4FBB2;
     border-radius: 20px;
-   }
+    }
 
-.list-of-projects > div:first-child {
-    background: #F4FBB2;
-   }
+.list-of-projects > article:first-child {
+  border: solid 5px #F4FBB2;
+  border-radius: 20px;
+  }
 
-
-
-nav {
+.contactme {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -96,5 +104,9 @@ nav {
     background-color: #f9fafc;
     color:#474747;
    
+ }
+  
+ .contact-img {
+   margin-right: 30px;
  }
 
